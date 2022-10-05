@@ -37,7 +37,8 @@ function EncryptionData(req, res) {
   async function connect() {
     mongoose
       .connect(
-        "mongodb+srv://aiman:12345@cluster0.4kf2max.mongodb.net/?retryWrites=true&w=majority"
+        "mongodb+srv://aimanzi:12345@cluster0.dqv6e6r.mongodb.net/test" // url connecting from mongoDb
+      
       )
       .then((res) => {
         console.log("connecting to db");
