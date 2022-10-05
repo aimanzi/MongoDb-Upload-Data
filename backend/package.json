@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-enc1": "nodemon ../backend/EncryptionPostServer-Router/encryptionServer1.js",
+    "start-mongo": "nodemon ./mongoserver.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "cryptr": "^6.0.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "getignore": "^1.1.2",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^6.6.2",
+    "node-localstorage": "^2.2.1"
+  }
+}

@@ -1,0 +1,23 @@
+table {
+    margin: 30px;
+    border: 1px gray solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+table thead tr td {
+    border: solid gray 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+table thead tr td label {
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+
+table tbody tr td {
+    border: solid gray 1px;
+    text-align: center;
+    padding: 20px;
+}
