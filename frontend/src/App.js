@@ -1,3 +1,4 @@
+import React from "react";
 import LoginEncryption from "./components/loginencryption/loginencryption";
 import "./App.css";
 
